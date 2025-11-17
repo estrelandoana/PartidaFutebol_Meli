@@ -11,9 +11,9 @@ public class Partida {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @ManyToOne
-    private Club mandante;
+    private Clube mandante;
     @ManyToOne
-    private Club visitante;
+    private Clube visitante;
     @ManyToOne
     private Estatio estadio;
     private String resultado;
