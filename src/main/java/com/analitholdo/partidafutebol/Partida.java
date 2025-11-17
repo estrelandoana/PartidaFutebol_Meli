@@ -2,7 +2,7 @@ package com.analitholdo.partidafutebol;
 
 import com.analitholdo.partidafutebol.Clube;
 import com.analitholdo.partidafutebol.Estadio;
-import jakarta.annotation.Generated;
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
